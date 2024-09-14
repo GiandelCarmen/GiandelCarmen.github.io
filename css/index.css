@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/oko.jpg') no-repeat center center fixed;
+    background-size: cover; /* Asegura que la imagen cubra toda la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la legibilidad del texto */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #1f7822;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Espacio arriba del botón */
+}
+
+/* Hover en el botón */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el botón desactivado */
+button.disabled {
+    background-color: #d3d3d3; /* Color de fondo para el estado desactivado */
+    cursor: not-allowed; /* Cambia el cursor a una cruz cuando está deshabilitado */
+}
+
+/* Estilo para el mensaje de espera */
+#message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilo para el contador de tiempo */
+#countdown {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
